@@ -1,7 +1,10 @@
 package com.tns.framework;
 
-public class ShopFactory {
-    PrimeAcc getNewPrimeAcc(int AccNo,String accNm,float charges,boolean isPrime){
+public abstract class ShopFactory {
+    public ShopFactory(int accNo, String accNm, float charges) {
+    }
+
+    PrimeAcc getNewPrimeAcc(int AccNo, String accNm, float charges, boolean isPrime){
 
         return null;
     }
